@@ -2714,14 +2714,14 @@ importers:
       p-limit: ^3.1.0
       promise-share: ^1.0.0
       tempy: ^1.0.0
-      uuid: ^3.4.0
+      uuid: ^8.3.2
     dependencies:
       '@pnpm/fetch': link:../fetch
       '@pnpm/store-controller-types': link:../store-controller-types
       '@pnpm/types': link:../types
       p-limit: 3.1.0
       promise-share: 1.0.0
-      uuid: 3.4.0
+      uuid: 8.3.2
     devDependencies:
       '@pnpm/client': link:../client
       '@pnpm/logger': 4.0.0
@@ -13499,6 +13499,12 @@ packages:
   /uuid/3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
     hasBin: true
+    dev: true
+
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
+    dev: false
 
   /v8-compile-cache/2.3.0:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
